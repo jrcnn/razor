@@ -1,6 +1,4 @@
-use std::marker::PhantomData;
-
-use razor::*;
+use macros::immutable_event;
 
 fn sample(val: &i32) {
     println!("{}", val)

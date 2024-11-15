@@ -1,4 +1,4 @@
-workspace = { members = ["tester"] }
+workspace = { members = [ "macros","tester"] }
 [package]
 name = "razor"
 version = "0.1.0"
